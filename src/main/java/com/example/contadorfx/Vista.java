@@ -24,6 +24,7 @@ public class Vista extends VBox {
         Button botonMenos = new Button("decrementar");
 
         HBox teclado = new HBox();
+        teclado.setAlignment(Pos.BASELINE_CENTER);
         teclado.getChildren().addAll(botonMas, botonMenos);
 
         this.getChildren().addAll(pantalla, teclado);

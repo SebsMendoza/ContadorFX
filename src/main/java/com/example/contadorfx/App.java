@@ -8,7 +8,7 @@ public class App extends Application {
     @Override
     public void start(Stage stage)  {
         Scene scene = new Scene(new Vista());
-        stage.setTitle("Calculadora");
+        stage.setTitle("Contador");
         stage.setScene(scene);
         stage.show();
     }
